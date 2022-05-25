@@ -1,0 +1,17 @@
+
+   
+var arr=[];
+
+for (var i=0;i<10;i++){
+    arr[i]=Math.floor(Math.random()*999+100);
+}
+
+console.log("the number are as follow : ------")
+for (var j=0;j<arr.length;j++){
+    console.log(arr[j]);
+}
+
+arr.sort();
+/// sorting and then determining the smallest and largest number ///
+console.log("the second smallest no = " +arr[2]);
+console.log("the second largest no = " +arr[8]);
